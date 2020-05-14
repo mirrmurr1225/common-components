@@ -1,0 +1,76 @@
+/* == Basic styles == */
+
+* {
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* == Footer style == */
+
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  margin-bottom: 8rem;
+}
+
+
+.footer {
+  background-color: hsla(0,0%,0%, 1);
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+footer small {
+  display: block;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+  letter-spacing: .025rem;
+}
+
+/* == interactivity == */
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
+/*==== HELPER STYLES ====*/
+
+
+body {
+  background: #cfcfcf;
+}
+
+.content {
+  padding: 10px;
+  color: rgba(255,255,255, .9);
+  font-family: monospace;
+  font-size: 1.125rem;
+  background: #ae001d;
+  min-height: calc(100vh - 8rem);
+}
+
+
+
+
+
+
